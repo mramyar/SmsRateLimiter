@@ -1,0 +1,69 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.cache
+*.log
+*.sln.docstates
+
+# Visual Studio-related files
+.vs/
+.vscode/
+
+# Rider / JetBrains-related files
+.idea/
+*.sln.iml
+
+# NuGet packages
+*.nupkg
+packages/
+project.lock.json
+global.json
+
+# .NET-generated files
+*.dll
+*.pdb
+*.exe
+*.app/
+*.appx/
+*.ipa/
+*.iobj
+*.ipdb
+*.ilk
+*.ncb
+*.pdb
+*.obj
+*.so
+*.swp
+*.tlog
+*.tmp
+*.csproj.user
+*.csproj.DotSettings
+*.csproj.DotSettings.user
+
+# Entity Framework Migrations (if using)
+Migrations/
+
+# Publish output
+publish/
+out/
+
+# Logs and debugging
+*.tlog
+*.bak
+*.log
+*.dmp
+hs_err_pid*
+
+# Environment-specific files
+.env
+.env.local
+secrets.json
+
+# Docker
+.dockerignore
+.docker/
+docker-compose.override.yml

@@ -1,0 +1,23 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5001",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "SmsRateLimiter": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Redis__Host": "localhost",
+        "Redis__Port": "6379"
+      }
+    }
+  }
+}

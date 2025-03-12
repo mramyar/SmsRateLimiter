@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsRateLimiter", "SmsRateLimiter\SmsRateLimiter.csproj", "{DBFB425F-52D3-47A1-B27B-B341913E50F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsRateLimiterTest", "SmsRateLimiterTest\SmsRateLimiterTest.csproj", "{8CB302F4-1F8C-4C5F-BEA6-44769678A3BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBFB425F-52D3-47A1-B27B-B341913E50F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFB425F-52D3-47A1-B27B-B341913E50F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFB425F-52D3-47A1-B27B-B341913E50F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFB425F-52D3-47A1-B27B-B341913E50F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB302F4-1F8C-4C5F-BEA6-44769678A3BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB302F4-1F8C-4C5F-BEA6-44769678A3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB302F4-1F8C-4C5F-BEA6-44769678A3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB302F4-1F8C-4C5F-BEA6-44769678A3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1624BD8-92B2-4EA7-845E-20D5F42F31A6}
+	EndGlobalSection
+EndGlobal
